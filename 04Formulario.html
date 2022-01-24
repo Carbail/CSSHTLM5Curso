@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+
+    </head>
+    <body>
+        <center><h2>Formulario</h2></center>
+        <form>
+            <label for="textoform1">Entrada de texto</label>
+            <!--Aquí hay que tener cuidado en backend para recibir los datos en BBDD, o te puedes topar con inject SQL-->
+            <input id="textoform1" required type="text" placeholder="Escribe tu nombre" value="">
+            <br>
+            <label for="textopass">Entrada de pass</label>
+            <input id="textopass" required type="password" placeholder="Escribe tu pass" value="">
+            <br>
+            <label for="textomail1">Entrada de mail</label>
+            <input id="textomail1" required type="email" placeholder="Escribe tu mail" value="">
+            <br>
+            <select>
+                <option>Empleado nivel 1</option>
+                <option>Empleado nivel 2</option>
+                <option>Empleado nivel 3</option>
+            </select>
+            <input type="checkbox" id="rojo"><label for="rojo">SC Rojo</label>
+            <br>
+            <input type="submit" values="Enviar formulario">
+        </form>
+    </body>
+</html>
