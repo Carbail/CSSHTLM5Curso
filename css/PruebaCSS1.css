@@ -1,0 +1,27 @@
+
+@charset "utf-8";
+
+
+
+body{
+    background:rebeccapurple
+}
+
+#caja{
+    max-width: 300px;
+    width: 200px;
+    height: 200px;
+    background-color:aquamarine;
+    align-self: center;
+
+}
+
+.grupo{
+    width: max-content;
+    height: 80px;
+    background-color:bisque;
+    rotate: 45px;
+    border-radius:1rem;
+
+}
+
