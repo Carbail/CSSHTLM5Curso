@@ -1,6 +1,6 @@
-/*==
-Global. Se quitan márgenes para las columnas
-==*/
+/*=============================================
+GLOBAL
+=============================================*/
 
 *{
 	margin:0px;
@@ -33,9 +33,9 @@ Global. Se quitan márgenes para las columnas
 	padding:10px;
 }
 
-/*====
-Seccion 1 Header
-*/
+/*=============================================
+SECCION 1
+=============================================*/
 
 header #logo{
 	font-family: 'Kaushan Script', cursive;
@@ -53,21 +53,22 @@ header center p{
 	color:white;
 }
 
-header center#red1 p{
+header center#icono1 p{
 	background:blue;
 }
 
-header center#red2 p{
+header center#icono2 p{
 	background:green;
 }
 
-header center#red3 p{
+header center#icono3 p{
 	background:red;
 }
 
-/*====
-Seccion 2 Nav
-*/
+/*=============================================
+SECCION 2
+=============================================*/
+
 nav ul li{
 	padding:10px;
 	text-align:center;	
@@ -88,9 +89,10 @@ nav ul li a:hover{
 nav ul li a:active{
 	background:rgba(255,0,100,1);
 }
-/*====
-Seccion 3 Llamadas de atención con imagen
-*/
+
+/*=============================================
+SECCION 3
+=============================================*/
 
 #seccion3 center{
 	padding:20px;
@@ -113,9 +115,10 @@ Seccion 3 Llamadas de atención con imagen
 	padding:10px;
 }
 
-/*====
-Seccion 4 Principal
-*/
+/*=============================================
+SECCION 4
+=============================================*/
+
 #seccion4 aside ul li{
 	
 	background:#aaa;
@@ -159,14 +162,14 @@ Seccion 4 Principal
 }
 
 #seccion4 aside#der input[type="text"]{
-	background:url(../img/User.png);
+	background:url(../img/usuario.png);
 	background-repeat:no-repeat;
 	background-position:right;
 	background-size:contain;
 }
 	
 #seccion4 aside#der input[type="password"]{
-	background:url(../img/key.png);
+	background:url(../img/password.png);
 	background-repeat:no-repeat;
 	background-position:right;
 	background-size:contain;
@@ -177,9 +180,10 @@ Seccion 4 Principal
 	border:0;
 }
 
-/*====
-Seccion 5 Pie
-*/
+/*=============================================
+SECCION 5
+=============================================*/
+
 footer{
 	padding:20px 10px;
 }
@@ -191,11 +195,9 @@ footer div{
 	color:white;
 }
 
-
-
-/*======
-Puntos de quiebro: Escritorio grande (LG)
-=======*/
+/*=============================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
+=============================================*/
 
 @media(min-width:1200px){
 
@@ -219,9 +221,9 @@ Puntos de quiebro: Escritorio grande (LG)
 
 }
 
-/*======
-Puntos de quiebro: Escritorio mediano (MD)
-=======*/
+/*=============================================
+PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
+=============================================*/
 
 @media(max-width:1199px) and (min-width:992px){
 
@@ -244,9 +246,9 @@ Puntos de quiebro: Escritorio mediano (MD)
 	}
 }
 
-/*======
-Puntos de quiebro: Tablet o Small (sm)
-=======*/
+/*=============================================
+PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
+=============================================*/
 
 @media(max-width:991px) and (min-width:768px){
 
@@ -269,9 +271,10 @@ Puntos de quiebro: Tablet o Small (sm)
 		margin-bottom: 20px;
 	}
 }
-/*======
-Puntos de quiebro: Móvil o ExtraSmall (xs)
-=======*/
+
+/*=============================================
+PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+=============================================*/
 
 @media(max-width:767px){
 
@@ -295,3 +298,5 @@ Puntos de quiebro: Móvil o ExtraSmall (xs)
 	}
 
 }
+
+
